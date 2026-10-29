@@ -1,0 +1,51 @@
+/* Ativos landing: tokens. */
+
+:root {
+  color-scheme: dark;
+  --page-width: 1280px;
+  --page-margin: 80px;
+}
+
+@media(min-width:1600px) {
+  :root {
+    --page-width: 1280px;
+  }
+}
+
+@media(max-width:1250px) {
+  :root {
+    --page-margin: 40px;
+  }
+}
+
+@media(max-width:1020px) {
+  :root {
+    --page-margin: 32px;
+  }
+}
+
+@media(max-width:600px) {
+  :root {
+    --page-margin: 24px;
+  }
+}
+
+@media(max-width:360px) {
+  :root {
+    --page-margin: 20px;
+  }
+}
+
+:root {
+  --color-accent-light: #92c1fd;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #8e95a5;
+  --color-bg-main: #0c0e12;
+  --color-bg-surface: #1a1d24;
+  --color-border: #1e2c3f;
+  --color-glow: #2b5899;
+  --color-surface-translucent: rgb(26 29 36 / .8);
+  --font-heading: Inter,Arial,sans-serif;
+  --font-body: Inter,Arial,sans-serif;
+  --font-technical: 'JetBrains Mono',monospace;
+}

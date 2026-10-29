@@ -1,0 +1,4 @@
+
+{% macro contact_button(class_name) -%}
+<a class="{{ class_name }}" {% if whatsapp_url %}href="{{ whatsapp_url }}" target="_blank" rel="noopener noreferrer"{% else %}role="link" aria-disabled="true"{% endif %}>Fale com a Ativos <span aria-hidden="true">→</span></a>
+{%- endmacro %}

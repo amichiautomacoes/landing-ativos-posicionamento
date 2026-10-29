@@ -1,0 +1,66 @@
+# Credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+/.aws/
+/.ssh/
+
+# Local environments, dependencies and caches
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local agent tooling; skills-lock.json records the sources for optional QA
+/.agents/
+/.codex/
+/.taste-skill/
+
+# Working originals and generated output
+/design/
+/runtime/
+/build/
+/dist/
+/backup/
+/backups/
+/reports/*
+!/reports/qa/
+/reports/qa/*
+!/reports/qa/README.md
+*.log
+*.pid
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Editors, operating systems and temporary copies
+.vscode/
+.idea/
+*.code-workspace
+*.suo
+*.user
+.DS_Store
+Thumbs.db
+desktop.ini
+*.bak
+*.old
+*.orig
+*.rej
+*.tmp
+*.temp
+*.swp
+*.swo
+*~

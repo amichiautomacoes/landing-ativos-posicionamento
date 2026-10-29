@@ -1,0 +1,19 @@
+    <section class="capabilities container" id="capabilities" aria-labelledby="capabilities-title" lang="pt-BR">
+      <h2 class="section-heading centered" id="capabilities-title" data-reveal>Da busca ao atendimento.</h2>
+      <div class="capability-grid">
+        {% set capabilities = [
+          ('search', '01. BUSCA UM SERVIÇO', 'Uma pessoa pesquisa no Google por um serviço que sua empresa oferece.'),
+          ('users', '02. ENCONTRA SUA EMPRESA', 'Ela pode conhecer seu negócio nas buscas, no Maps ou em um anúncio.'),
+          ('taxonomy', '03. CONHECE OS SERVIÇOS', 'Sua página apresenta o que você oferece e como falar com a empresa.'),
+          ('partners', '04. INICIA O CONTATO', 'Pelo WhatsApp, a pessoa tira dúvidas ou busca mais informações sobre seus serviços.'),
+          ('source', '05. RECEBE ATENDIMENTO', 'A inteligência artificial faz o primeiro atendimento, e o contato fica organizado no sistema de gestão.'),
+          ('analytics', '06. SEGUE EM CONTATO', 'Retornos e agendamentos ajudam sua equipe a acompanhar o interesse e os próximos passos.')
+        ] %}
+        {% for icon, title, description in capabilities %}
+        <article class="capability-card" data-reveal>
+          <svg class="capability-icon" viewBox="0 0 48 48" width="42" height="42" aria-hidden="true" focusable="false"><use href="{{ static_url('icons/ui.svg') }}#{{ icon }}"></use></svg>
+          <h3>{{ title }}</h3><p>{{ description }}</p>
+        </article>
+        {% endfor %}
+      </div>
+    </section>

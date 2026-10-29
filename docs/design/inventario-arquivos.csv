@@ -1,0 +1,79 @@
+caminho;papel
+.env.example;Entrada, configuracao ou documentacao do projeto
+.gitignore;Entrada, configuracao ou documentacao do projeto
+README.md;Entrada, configuracao ou documentacao do projeto
+requirements.txt;Entrada, configuracao ou documentacao do projeto
+run.py;Entrada, configuracao ou documentacao do projeto
+skills-lock.json;Entrada, configuracao ou documentacao do projeto
+app/__init__.py;Aplicacao e arquivos publicados
+app/config.py;Aplicacao e arquivos publicados
+app/routes.py;Aplicacao e arquivos publicados
+app/services/__init__.py;Aplicacao e arquivos publicados
+app/services/contact_links.py;Aplicacao e arquivos publicados
+app/static/css/base.css;Aplicacao e arquivos publicados
+app/static/css/components.css;Aplicacao e arquivos publicados
+app/static/css/layout.css;Aplicacao e arquivos publicados
+app/static/css/pages/home.css;Aplicacao e arquivos publicados
+app/static/css/tokens.css;Aplicacao e arquivos publicados
+app/static/fonts/inter/inter-variable.ttf;Aplicacao e arquivos publicados
+app/static/fonts/inter/OFL.txt;Aplicacao e arquivos publicados
+app/static/fonts/jetbrains-mono/jetbrains-mono-variable.ttf;Aplicacao e arquivos publicados
+app/static/fonts/jetbrains-mono/OFL.txt;Aplicacao e arquivos publicados
+app/static/icons/ui.svg;Aplicacao e arquivos publicados
+app/static/images/brand/ativos-logo.png;Aplicacao e arquivos publicados
+app/static/images/brand/reference-mark.svg;Aplicacao e arquivos publicados
+app/static/images/decorations/quote.svg;Aplicacao e arquivos publicados
+app/static/images/hero/desktop-poster.jpg;Aplicacao e arquivos publicados
+app/static/images/hero/mobile-poster.jpg;Aplicacao e arquivos publicados
+app/static/images/services/digital-marketing.png;Aplicacao e arquivos publicados
+app/static/images/services/google-presence.png;Aplicacao e arquivos publicados
+app/static/images/services/sales-automation.png;Aplicacao e arquivos publicados
+app/static/images/testimonials/larisa.png;Aplicacao e arquivos publicados
+app/static/js/main.js;Aplicacao e arquivos publicados
+app/static/js/modules/hero-video.js;Aplicacao e arquivos publicados
+app/static/js/modules/navigation.js;Aplicacao e arquivos publicados
+app/static/js/modules/reveal.js;Aplicacao e arquivos publicados
+app/static/js/modules/testimonials.js;Aplicacao e arquivos publicados
+app/static/videos/hero/desktop.mp4;Aplicacao e arquivos publicados
+app/static/videos/hero/mobile.mp4;Aplicacao e arquivos publicados
+app/template_helpers.py;Aplicacao e arquivos publicados
+app/templates/base.html;Aplicacao e arquivos publicados
+app/templates/components/contact-button.html;Aplicacao e arquivos publicados
+app/templates/pages/home.html;Aplicacao e arquivos publicados
+app/templates/partials/footer.html;Aplicacao e arquivos publicados
+app/templates/partials/header.html;Aplicacao e arquivos publicados
+app/templates/sections/contact.html;Aplicacao e arquivos publicados
+app/templates/sections/hero.html;Aplicacao e arquivos publicados
+app/templates/sections/intro.html;Aplicacao e arquivos publicados
+app/templates/sections/journey.html;Aplicacao e arquivos publicados
+app/templates/sections/process.html;Aplicacao e arquivos publicados
+app/templates/sections/services.html;Aplicacao e arquivos publicados
+app/templates/sections/testimonials.html;Aplicacao e arquivos publicados
+design/originals/brand/logo.png;Originais e referencia visual vigente
+design/originals/hero/hero-original.mp4;Originais e referencia visual vigente
+design/originals/hero/presenca-digital.png;Originais e referencia visual vigente
+design/references/enterpret/landing-page-desktop.png;Originais e referencia visual vigente
+design/references/enterpret/README.md;Originais e referencia visual vigente
+docs/brand/design-system.md;Documentacao mantida
+docs/design/inventario-arquivos.csv;Documentacao mantida
+docs/design/organizacao-do-projeto.md;Documentacao mantida
+docs/references/third-party.md;Documentacao mantida
+scripts/dev/common.ps1;Comandos de desenvolvimento e QA
+scripts/dev/start.ps1;Comandos de desenvolvimento e QA
+scripts/dev/stop.ps1;Comandos de desenvolvimento e QA
+scripts/qa/inspect.ps1;Comandos de desenvolvimento e QA
+tests/browser/landing.mjs;Testes mantidos
+tests/browser/support/browser-env.mjs;Testes mantidos
+tests/integration/test_routes.py;Testes mantidos
+requirements/base.txt;Dependencias declaradas
+requirements/optional.txt;Dependencias declaradas
+requirements/production.txt;Dependencias declaradas
+.taste-skill/brief.md;Direcao e briefing vigentes
+.taste-skill/direction.json;Direcao e briefing vigentes
+.agents/skills/**;"Skills instaladas; origem e versao em skills-lock.json"
+.venv/**;Ambiente local regeneravel
+reports/qa/**;Indice e evidencias das verificacoes
+runtime/**;Execucao local
+Dockerfile;Imagem de producao na porta 8504
+.dockerignore;Arquivos permitidos no contexto Docker
+.gitattributes;Normalizacao de texto entre Windows e Linux
